@@ -1,0 +1,13 @@
+.idCard {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid black;
+    width: 500px;
+}
+
+.picture {
+    padding: 4px;
+    margin-right: 10px;
+}
