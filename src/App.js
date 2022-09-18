@@ -8,6 +8,9 @@ import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
 import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
+import LikeButton from './components/LikeButton';
+import ClickablePicture from './components/ClickablePicture';
+import Dice from './components/Dice';
 
 const App = () => {
   return (
@@ -98,11 +101,16 @@ const App = () => {
           licensePlate: 'BE33ER',
         }}
       />
+
+      <LikeButton />
+
+      <ClickablePicture />
+
+      <Dice />
     </div>
   );
 };
 
 {
-  /* <IdCard idcard={cardArray[0]}></IdCard>; */
 }
 export default App;
